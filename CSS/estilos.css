@@ -1,0 +1,380 @@
+* {
+   background-color: #5A3C4B;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*html{
+    background: linear-gradient(to bottom, #dbc068, #f5ce4f);
+}*/
+
+.temas {
+    font-size: 50px;
+    color: #DFBA76;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+
+a {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #DFBA76;
+
+}
+
+.imgs {
+    border-style: solid;
+    border-width: 14px;
+    border-color: #532f41;
+    margin: 3%;
+}
+
+table {
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+/* início MENU */
+.menu {
+    background-color: #532f41;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    box-shadow: 2px 6px 10px rgba(255, 255, 255, 0.3);
+    z-index: 1000;
+    margin-bottom: 1000px;
+
+}
+
+.navbar {
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #532f41;
+    margin-top: 8px;
+}
+
+/* fim MENU */
+
+
+/* início CAPA */
+.imagem-header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    margin: 0;
+}
+
+.imagemfundo {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo {
+    transition: opacity 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.titulo:hover {
+    opacity: 0;
+}
+
+.citacao {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 95px;
+    background-color: transparent;
+}
+
+.citacao img {
+    background-color: transparent;
+}
+
+/* fim CAPA */
+
+
+/* início CITAÇÕES */
+#citacoes {
+    background-color: rgba(87, 24, 54, 0.5);
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slide {
+    background-color: #571836;
+    overflow: hidden;
+    color: white;
+    min-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* fim CITAÇÕES */
+
+
+
+/* início GALERIA */
+
+.galeria {
+    background-color: #5A3C4B;
+}
+
+.galeria p {
+    text-align: center;
+    font-size: 30px;
+    background-color: #5A3C4B;
+}
+
+.centralizagal {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #836c70;
+    text-align: center;
+
+}
+
+.imgs{
+    width: 300px;
+}
+
+/* fim GALERIA */
+
+/* início HISTÓRIA*/
+#historia {
+    margin-top: 100px;
+}
+
+.centraliza {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #532f41;
+    padding: 20px;
+    text-align: center;
+}
+
+.lateralcolorida {
+    padding: 20px 0;
+}
+
+/* fim HISTÓRIA */
+
+/* início INDICAÇÕES*/
+#indicacoes {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#indicacoes a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#indicacoes img {
+    width: 200px;
+    height: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #836c70;
+    margin-right: 10px;
+    
+
+}
+
+#indicacoes p {
+    max-width: 1100px;
+    text-align: justify;
+    text-align: left;
+    margin-right: 25px;
+    background-color: #836c70;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #836c70;
+    ;
+}
+
+#indicacoes h5 {
+    font-size: 40px;
+    background-color: #571836;
+    margin: 30px 30px 0 0;
+}
+
+#indicacoes h6 {
+    font-size: 25px;
+    background-color: #5A3C4B;
+    text-align: center;
+}
+
+/* fim INDICAÇÕES*/
+
+
+/* início SERVIÇOS */
+#servicos {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.servicostext {
+    background-color: #836c70;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #836c70;
+  
+
+}
+
+#servicos img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #836c70;
+    width: 470px;
+    height: auto;
+
+}
+
+
+/* fim SERVIÇOS */
+
+
+p {
+    font-size: 30px;
+    text-align: center;
+    text-align: justify;
+    background-color: #532f41;
+    margin: 20px;
+}
+
+h2 {
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 5px;
+    z-index: 50;
+    padding: 20px;
+
+}
+
+h3 {
+
+    color: #DFBA76;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    z-index: 50;
+    padding: 20px;
+}
+
+h4 {
+    font-size: 45px;
+    text-align: justify;
+    background-color: #532f41;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: bold;
+    left: 50%;
+    top: 180%;
+    text-align: center;
+}
+
+h6 {
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 24px;
+    max-width: 1400px;
+    text-align: center;
+
+}
+
+
+/* início CONTATO */
+.eu {
+    display: block;
+    border-style: solid;
+    border-color: #836c70;
+    border-width: 15px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#contato {
+    display: block;
+    max-width: 1400px;
+    text-align: center;
+    margin: 70px auto;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#contato h3 {
+    font-size: 30px;
+}
+
+#contato a {
+    font-size: 24px;
+    background-color: #532f41;
+}
+
+#contato h5,
+h6 {
+    background-color: #532f41;
+
+}
+
+/* fim CONTATO */
+
+
+/* início RODAPÉ */
+#rodape {
+    background-color: #532f41;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#rodape h5 {
+    background-color: #532f41;
+    font-size: 15px;
+    margin: 5px;
+}
+
+/* fim RODAPÉ */
